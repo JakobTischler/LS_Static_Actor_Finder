@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>LS Static Actor Finder</title>
+	
+	<link href="res/css/reset.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic,700' rel='stylesheet' type='text/css'>
+	<link href='res/fonts/entypo94502/style.css' rel='stylesheet' type='text/css'>
+	<!--[if lte IE 7]><script src="res/fonts/entypo94502/lte-ie7.js"></script><![endif]-->
+	<link href="res/css/jquery.snippet.min.css" rel="stylesheet" />
+	<link href="res/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<header>
+	<!--<h1>LS Map Static Actor Finder</h1>-->
+	<h1><img src="res/img/lssaf_titles.png" alt="LS Static Actor Finder" /></h1>
+	<div id="version" rel="version"></div>
+</header>
+
+<div id="content">
+
+	<nav>
+		<ul>
+			<li class="border">
+				<div aria-hidden="true" data-icon="&#x74;"></div>
+				<span>The Tool</span>
+			</li>
+			<li class="border inactive">
+				<div aria-hidden="true" data-icon="&#x71;"></div>
+				<a href="res/content/faq.html" title="What? How? Who? Why? What?">The WTF?</a>
+			</li>
+			<li class="inactive">
+				<div aria-hidden="true" data-icon="&#x69;"></div>
+				<a href="res/content/license.html" title="Dos and don'ts">The Law</a>
+			</li>
+			<li class="clearfix"></li>
+		</ul>
+	</nav>
+
+	<span class="tipp">Enter your scene XML</span>
+	<span id="info"></span>
+	<textarea placeholder='<Shape name="fancyName" shapeid="1234" nodeid="5678" ...'></textarea>
+	
+	<div class="buttonWrapper">
+		<button id="submit" class="icon-cog-1" aria-hidden="true" data-icon="&#x74;" name="submit" value="Submit"></button>
+	</div>
+	
+	<div id="tempXML"></div>
+	<div id="output1"></div>
+	<div id="output2"><ol id="errorList"></ol></div>
+</div>
+
+<footer>
+	<span id="footerContent"><span rel="version"></span> &copy; Jakob Tischler, 2012. All Rights Reserved.</span> <div aria-hidden="true" data-icon="&#x63;"></div> <a href="mailto:jakob.tischler@gmail.com?subject=LS Static Actor Finder" title="Send me a postcard">Contact me</a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+<script src="res/js/jquery.snippet.min.js"></script>
+<script src="res/js/lsStaticActorFinder_v0.31.js"></script>
+
+</body>
+</html>
