@@ -38,6 +38,7 @@ Although it's pretty self-explanatory, and although there's a fancy ol' picture 
 2. Copy the scene section (i.e. from `<Scene>` until `<\Scene>`) and paste it in the tool's text area.
 3. Uhm, hit that <span style="text-decoration:line-through;">ass</span> button?
 4. Enjoy your many marvelous errors. Also, maybe go ahead and fix them.  
+
 ___
 
 ### I've found some static actor errors in my map. How can I get rid of them?
@@ -45,7 +46,8 @@ Congratulations. There's three possible actions to take:
 
 1. Remove the parent's scale (i.e. `ScaleX = 1`, `ScaleY = 1`, `ScaleZ = 1`). But there's a reason it was scaled in the first place, probably to make it look right. So that doesn't always bring the wanted outcome.
 2. Change the child's `static="true"`. Brings funny ingame physics with it. There also was a reason that the child was set to static. Again, not preferable.
-3. The easiest way (meaning, the one I personally use) is scaling the child [see the note at question 1]. Because I don't really want the looks to change, I only scale it minimally: `ScaleX = 1.000001`, `ScaleY = 1`, `ScaleZ = 1`. Ninety-nine percent of the time that suffices.  
+3. The easiest way (meaning, the one I personally use) is scaling the child [see the note at question 1]. Because I don't really want the looks to change, I only scale it minimally: `ScaleX = 1.000001`, `ScaleY = 1`, `ScaleZ = 4. Ninety-nine percent of the time that suffices.  
+
 ___
 
 ### Any more information I need to know?
@@ -54,6 +56,7 @@ Sure thing.
 1. I've tested the tool successfully with Firefox 13.0.1, Chrome 20 and Internet Explorer 9.0.8. Using lower versions or browsers with different engines will induce the *Doomsday Clause*: no success guaranteed. Any higher versions should do just fine. In addition you need active internet access, plus JavaScript must be activated.
 2. The bigger the `<Scene>` part, the longer it takes to analyze it, naturally. Huge amounts of data have to be processed. Even if the browser seems to hang or have crashed, don't click everywhere, don't try to close it, just wait. If something went wrong, there will be <span style="text-decoration:line-through;">blood</span> a message.
 3. Again: this is not a mod for LS. It's an separate tool for use in the browser.  
+
 ___
 
 ### Copyright information
