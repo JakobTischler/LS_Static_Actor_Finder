@@ -36,7 +36,7 @@ Although it's pretty self-explanatory, and although there's a fancy ol' picture 
 
 1. Open your i3d file with a text editor of your choosing.
 2. Copy the scene section (i.e. from `<Scene>` until `<\Scene>`) and paste it in the tool's text area.
-3. Uhm, hit that <span style="text-decoration:line-through;">ass</span> button?
+3. Uhm, hit that ~~ass~~ button?
 4. Enjoy your many marvelous errors. Also, maybe go ahead and fix them.  
 
 ___
@@ -54,7 +54,7 @@ ___
 Sure thing.
 
 1. I've tested the tool successfully with Firefox 13.0.1, Chrome 20 and Internet Explorer 9.0.8. Using lower versions or browsers with different engines will induce the *Doomsday Clause*: no success guaranteed. Any higher versions should do just fine. In addition you need active internet access, plus JavaScript must be activated.
-2. The bigger the `<Scene>` part, the longer it takes to analyze it, naturally. Huge amounts of data have to be processed. Even if the browser seems to hang or have crashed, don't click everywhere, don't try to close it, just wait. If something went wrong, there will be <span style="text-decoration:line-through;">blood</span> a message.
+2. The bigger the `<Scene>` part, the longer it takes to analyze it, naturally. Huge amounts of data have to be processed. Even if the browser seems to hang or have crashed, don't click everywhere, don't try to close it, just wait. If something went wrong, there will be ~~blood~~ a message.
 3. Again: this is not a mod for LS. It's an separate tool for use in the browser.  
 
 ___
